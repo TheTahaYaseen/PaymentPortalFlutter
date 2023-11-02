@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:paymentportal/splashscreen_view.dart';
 
 void main() {
   runApp(const MainApp());
