@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:paymentportal/color_constants.dart';
 import 'package:paymentportal/splashscreen_view.dart';
 
 void main() {
@@ -14,7 +15,9 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
         title: 'Payment Portal',
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          scaffoldBackgroundColor: ColorConstants.primary,
+          colorScheme:
+              ColorScheme.fromSeed(seedColor: ColorConstants.secondary),
           useMaterial3: true,
         ),
         home: SplashScreen());
